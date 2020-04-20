@@ -4,6 +4,8 @@
 
 `html-animator.js` is a simple javascript library to animate any html element
 
+## Demo
+[Html Animator demo  ***](https://koffiisen.github.io/HtmlAnimator.js/)
 
 ## Installation
 

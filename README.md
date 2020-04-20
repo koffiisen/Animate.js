@@ -1,30 +1,32 @@
-# HtmlAnimator.js
+# Animate.js
 **Every feedback is welcome!**
 
+`animate.js` is a simple javascript library to animate any html element
 
-`html-animator.js` is a simple javascript library to animate any html element
+#### The inspiration come from this library [Animate.css](https://github.com/daneden/animate.css)
 
 ## Demo
 [Html Animator demo  ***](https://koffiisen.github.io/HtmlAnimator.js/)
 
+
 ## Installation
 
-Download html-animator.min.js in dist folder:
+Download animate.min.js in dist folder:
 
 ```bash
-$ dist/html-animator.min.js
+$ dist/animate.min.js
 ```
 
 
 ## Usage
 
-To use HtmlAnimator.js in your website, simply drop the javascript into your document's `<body>`
+To use Animate.js in your website, simply drop the javascript into your document's `<body>`
 
 ```html
 <body>
   <div id="domElement"></div>
   <!-- -->
-  <script src="dist/html-animator.min.js"></script>
+  <script src="dist/animate.min.js"></script>
 </body>
 ```
 
@@ -34,12 +36,12 @@ or use with jquery
 <body>
   <!-- -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="dist/html-animator.min.js"></script>
+  <script src="dist/animate.min.js"></script>
 </body>
 ```
 
 
-### Available Animator
+### Available Animator (89)
 
 | bounce | flash | pulse | headShake | wobble | jello | bounceIn | bounceInDown | bounceInLeft | bounceInRight | bounceInUp | bounceOut | bounceOutDown | bounceOutUp | fadeIn | fadeInDown | fadeInDownBig | fadeInLeft | fadeInLeftBig | fadeInRight | fadeInRightBig | fadeInUp | fadeInUpBig | fadeOutDown | fadeOutDownBig | fadeOutLeftBig | fadeOutRightBig | fadeOutUp | fadeOutUpBig | flipInX | flipInY | flipOutX | flipOutY | lightSpeedIn | lightSpeedOut | rotateIn | rotateInDownLeft | rotateInDownRight | rotateInUpLeft | rotateInUpRight | rotateOut | rotateOutDownLeft | rotateOutDownRight | rotateOutUpLeft | rotateOutUpRight | jackInTheBox | rollIn | rollOut | zoomInDown | zoomInLeft | zoomInRight | zoomInUp | zoomOutDown | zoomOutLeft | zoomOutRight | zoomOutUp | slideInDown | slideInLeft | slideInRight | slideInUp | slideOutDown | slideOutLeft | slideOutRight | slideOutUp | heartBeat | rollOutRight | rollOutLeft | rubberBand | zoomOut | zoomIn | fadeOut | fadeOutRight | fadeOutLeft | fadeOutTop | fadeOutBottom | horizontalFlip | verticalFlip | bounceOutBottom | bounceOutTop | bounceOutLeft | bounceOutRight | rotateClockwise | rotateAntiClockwise | tada | moveIn | moveOut | swing | shake | hinge |
 | ------ | ----- | ----- | --------- | ------ | ----- | -------- | ------------ | ------------ | ------------- | ---------- | --------- | ------------- | ----------- | ------ | ---------- | ------------- | ---------- | ------------- | ----------- | -------------- | -------- | ----------- | ----------- | -------------- | -------------- | --------------- | --------- | ------------ | ------- | ------- | -------- | -------- | ------------ | ------------- | -------- | ---------------- | ----------------- | -------------- | --------------- | --------- | ----------------- | ------------------ | --------------- | ---------------- | ------------ | ------ | ------- | ---------- | ---------- | ----------- | -------- | ----------- | ----------- | ------------ | --------- | ----------- | ----------- | ------------ | --------- | ------------ | ------------ | ------------- | ---------- | --------- | ------------ | ----------- | ---------- | ------- | ------ | ------- | ------------ | ----------- | ---------- | ------------- | -------------- | ------------ | --------------- | ------------ | ------------- | -------------- | --------------- | ------------------- | ---- | ------ | ------- | ----- | ----- | ----- |
@@ -70,7 +72,7 @@ $("#domElement").jello();
 
 ## License
 
-HtmlAnimator.js is licensed under the MIT license. (https://opensource.org/licenses/MIT)
+Animate.js is licensed under the MIT license. (https://opensource.org/licenses/MIT)
 
 ## Author
 [koffiisen](https://github.com/koffiisen)

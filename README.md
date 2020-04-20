@@ -1,4 +1,4 @@
-# Animate.js
+# ![](src/small.png) Animate.js 
 **Every feedback is welcome!**
 
 `animate.js` is a simple javascript library to animate any html element
@@ -16,7 +16,6 @@ Download animate.min.js in dist folder:
 ```bash
 $ dist/animate.min.js
 ```
-
 
 ## Usage
 
@@ -39,7 +38,6 @@ or use with jquery
   <script src="dist/animate.min.js"></script>
 </body>
 ```
-
 
 ### Available Animator (89)
 
@@ -68,7 +66,9 @@ $(".button").flash();
 // $(".button")[2].flash();
 $("#domElement").jello();
 ```
+## Thanks
 
+I thanks all the [Animate.css](https://github.com/daneden/animate.css) teams for give me this inspiration. Very love yours works
 
 ## License
 
@@ -76,4 +76,5 @@ Animate.js is licensed under the MIT license. (https://opensource.org/licenses/M
 
 ## Author
 [koffiisen](https://github.com/koffiisen)
+
 

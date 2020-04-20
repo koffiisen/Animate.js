@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customizable HTML Animator For Web App - js|jquery|CSS</title>
+    <link rel="icon" href="src/logo.png">
+    <meta name="description"
+          content="HtmlAnimator is a pure JavaScript library to make aniamtion for any html element.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body style="overflow: hidden">
+
+<header>
+    <div class="wrap just-center">
+        <span id="animationSandbox" style="display: block;" class="">
+            <h1 class="__title just-center">HTML  ANIMATOR</h1></span>
+        <span class="beta subhead just-center">Simple javascript library to animate any html element</span>
+        <br><br>
+        <div id="anim" class="ui cards just-center" style="margin: 4px">
+            <div class="card">
+                <div class="content" id="color">
+                    <img class="right floated mini ui image"
+                         src="src/logo.png">
+                    <div class="header">
+                        Koffi Joel
+                    </div>
+                    <div class="meta">
+                        <a href="https://github.com/koffiisen" target="_blank">Github - @koffiisen</a>
+                    </div>
+                    <div class="description">
+                        Animate Me <br>
+                        <small>Simple javascript library to animate any html element</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="generate_code" class="ui message"
+             style="background: black; color: #e0a800; margin-left: -5%; display: none;width: auto">
+            let <span style="color:#f3f3f3">domElement</span> = document.<span
+                style="color: #f3f3f3">getElementById("<span style="color: #009926">element</span>")</span>;
+            domElement.bounce();
+        </div>
+
+    </div>
+</header>
+<main>
+    <div class="center" style="margin: 2px">
+        <div class="ui fluid search selection dropdown" style="width: 25%">
+            <input type="hidden" name="country">
+            <i class="dropdown icon"></i>
+            <div class="default text">Select Animation</div>
+            <div class="menu">
+                <div class="item"><i class="html5 icon yellow"></i>bounce</div>
+                <div class="item"><i class="html5 icon yellow"></i>flash</div>
+                <div class="item"><i class="html5 icon yellow"></i>pulse</div>
+                <div class="item"><i class="html5 icon yellow"></i>headShake</div>
+                <div class="item"><i class="html5 icon yellow"></i>wobble</div>
+                <div class="item"><i class="html5 icon yellow"></i>jello</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceInDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceInLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceInRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceInUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOutDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOutUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInDownBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInLeftBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInRightBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeInUpBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutDownBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutLeftBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutRightBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutUpBig</div>
+                <div class="item"><i class="html5 icon yellow"></i>flipInX</div>
+                <div class="item"><i class="html5 icon yellow"></i>flipInY</div>
+                <div class="item"><i class="html5 icon yellow"></i>flipOutX</div>
+                <div class="item"><i class="html5 icon yellow"></i>flipOutY</div>
+                <div class="item"><i class="html5 icon yellow"></i>lightSpeedIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>lightSpeedOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateInDownLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateInDownRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateInUpLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateInUpRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateOutDownLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateOutDownRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateOutUpLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateOutUpRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>jackInTheBox</div>
+                <div class="item"><i class="html5 icon yellow"></i>rollIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>rollOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomInDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomInLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomInRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomInUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomOutDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomOutLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomOutRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomOutUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideInDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideInLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideInRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideInUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideOutDown</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideOutLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideOutRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>slideOutUp</div>
+                <div class="item"><i class="html5 icon yellow"></i>heartBeat</div>
+                <div class="item"><i class="html5 icon yellow"></i>rollOutRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>rollOutLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>rubberBand</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>zoomIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutTop</div>
+                <div class="item"><i class="html5 icon yellow"></i>fadeOutBottom</div>
+                <div class="item"><i class="html5 icon yellow"></i>horizontalFlip</div>
+                <div class="item"><i class="html5 icon yellow"></i>verticalFlip</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOutBottom</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOutTop</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOutLeft</div>
+                <div class="item"><i class="html5 icon yellow"></i>bounceOutRight</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateClockwise</div>
+                <div class="item"><i class="html5 icon yellow"></i>rotateAntiClockwise</div>
+                <div class="item"><i class="html5 icon yellow"></i>tada</div>
+                <div class="item"><i class="html5 icon yellow"></i>moveIn</div>
+                <div class="item"><i class="html5 icon yellow"></i>moveOut</div>
+                <div class="item"><i class="html5 icon yellow"></i>swing</div>
+                <div class="item"><i class="html5 icon yellow"></i>shake</div>
+                <div class="item"><i class="html5 icon yellow"></i>hinge</div>
+            </div>
+        </div>
+        <div class="ui icon input">
+            <input type="number" id="time_duration" placeholder="duration (milliseconds)" min="0">
+            <i class="inverted circular terminal link icon" id="time"></i>
+        </div>
+    </div>
+</main>
+<div style="position: absolute; bottom: 5%;float: right; right: 2%; border-radius: 5%">
+    <button class="ui button" style="background: #e0a800">
+        <i class="download link icon"></i>
+        <a href="dist/html-animator.min.js" style="color: #f3f3f3" target="_blank">Download</a>
+    </button>
+    <button class="ui button" style="background: #990073; color: #f3f3f3">
+        <i class="book link icon"></i>
+        <a href="README.md" target="_blank">API DOCS</a>
+    </button>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script src="dist/html-animator.min.js"></script>
+<script src="src/js/main.js"></script>
+</body>
+</html>

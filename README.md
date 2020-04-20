@@ -6,7 +6,7 @@
 #### The inspiration come from this library [Animate.css](https://github.com/daneden/animate.css)
 
 ## Demo
-[Html Animator demo  ***](https://koffiisen.github.io/HtmlAnimator.js/)
+[Html Animator demo  ***](https://koffiisen.github.io/Animate.js/)
 
 
 ## Installation

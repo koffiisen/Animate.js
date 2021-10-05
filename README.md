@@ -5,7 +5,7 @@
 
 
 ## Demo
-[Animator.js DEMO ***](https://koffiisen.github.io/Animate.js/)
+[Animate.js DEMO ***](https://koffiisen.github.io/Animate.js/)
 
 
 ## Installation

@@ -66,9 +66,6 @@ $(".button").flash();
 // $(".button")[2].flash();
 $("#domElement").jello();
 ```
-## Thanks
-
-I thanks all the [Animate.css](https://github.com/daneden/animate.css) teams for give me this inspiration. Very love yours works
 
 ## License
 

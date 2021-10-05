@@ -3,10 +3,9 @@
 
 `animate.js` is a simple javascript library to animate any html element
 
-#### The inspiration come from this library [Animate.css](https://github.com/daneden/animate.css)
 
 ## Demo
-[Html Animator demo  ***](https://koffiisen.github.io/Animate.js/)
+[Animator.js DEMO ***](https://koffiisen.github.io/Animate.js/)
 
 
 ## Installation

@@ -1,7 +1,10 @@
 # ![](src/small.png) Animate.js 
 **Every feedback is welcome!**
 
-[![GitHub Version](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/releases) [![Github Star](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/stargazers) [![Github Fork](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/network/members) [![License](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/blob/main/LICENSE)
+[![GitHub Version](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/releases)
+[![Github Star](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/stargazers)
+[![Github Fork](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/network/members)
+[![License](https://img.shields.io/github/release/Animate.js/Animate.js.svg?style=for-the-badge)](https://github.com/koffiisen/Animate.js/blob/master/LICENSE)
 
 `animate.js` is a simple javascript library to animate any html element
 
